@@ -1,3 +1,4 @@
+import React from "react";
 import { useCallback, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { useGetL10n, setChangeLocale } from "../../store/L10n";

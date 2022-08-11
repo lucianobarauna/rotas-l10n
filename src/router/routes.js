@@ -1,3 +1,4 @@
+import React from "react";
 import { Redirect } from "react-router-dom";
 import { Home, About } from "../pages/";
 import { defaultLocale, utilLocalizeRoutes } from "../locales/";
