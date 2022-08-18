@@ -5,7 +5,7 @@ Estudo de caso para gerenciamento de rotas dinâmicas envolvendo a l10n.
 Tecnologia:
 - react
 - redux
-- i18n
+- i18next
 
 
 Tutorial de referência:
