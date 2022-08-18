@@ -13,7 +13,7 @@ import { setChangeLocale } from "../../store/L10n";
 
 const Header = () => {
   const dispatch = useDispatch();
-  const { t } = useTranslation();
+  const { t } = useTranslation('compHeader');
   const history = useHistory();
 
   const doChangeLanguage = (lng) => {
@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header className={css.header}>
-      <p>{t("globalText:select")}</p>
+      <p>{t("select")}</p>
       <select onChange={({ target }) => doChangeLanguage(target.value)}>
         {locales.map((row) => {
           return (

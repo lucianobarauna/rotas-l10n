@@ -1,4 +1,4 @@
-export { dataLocales } from "./dataLocales";
+export { dataLocales } from "./locales";
 export { defaultLocale, locales } from "./config";
 export {
   utilGetPrefixPath,
