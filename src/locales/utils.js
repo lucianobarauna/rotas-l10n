@@ -1,10 +1,13 @@
 import { defaultLocale } from "./config";
 
+/**
+ * Ajusta a url para o formato: /:locale/foo/bar
+ * @param {string} path - caminho da url
+ * @param {string} prefix - prefixo a ser colocado
+ * @return {string} /:locale/foo/bar
+ */
 export function utilGetPrefixPath(path, prefix) {
-  // `/:locale${route.path.replace(/\s/g, "")}` - remove os espaços
-  // em branco e ajusta a url para o formato /:locale/foo/bar
-
-  return `/${prefix}${path.replace(/\s/g, "")}`;
+  return `/${prefix}${path.replace(/\s/g, "")}`;  // remove whitespace
 }
 
 export function utilLocalizeRoutes(routes) {
