@@ -1,3 +1,4 @@
+import React from "react";
 import { useTranslation } from "react-i18next";
 import css from "./Home.module.css";
 import { Header, LocalizedLink } from "../../components/";

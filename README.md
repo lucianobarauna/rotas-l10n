@@ -1,6 +1,11 @@
 # App internacionalizado
 
-Estudo de caso para gerenciamento de rotas dinâmicas envolvendo a linguagem.
+Estudo de caso para gerenciamento de rotas dinâmicas envolvendo a l10n.
+
+Tecnologia:
+- react
+- redux
+- i18n
 
 
 Tutorial de referência:
